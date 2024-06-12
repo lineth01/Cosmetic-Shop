@@ -8,12 +8,23 @@
     
 
     box-sizing: border-box;
-    display: block;
+    list-style: none;
 
     /* tamaño, ancho y estilo de las letras */
     font-size: 1rem;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
 
+.navbar__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+}
+
+.navbar__nav__list {
+    display: flex;
+    gap: 35px;
 }
