@@ -1,0 +1,19 @@
+/* para acomodar la pagina */
+* {
+    /* margenes */
+    margin: unset;
+    padding: unset;
+    outline: unset;
+    border: unset;
+    
+
+    box-sizing: border-box;
+    display: block;
+
+    /* tamaño, ancho y estilo de las letras */
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
