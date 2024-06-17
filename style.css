@@ -32,6 +32,17 @@
     gap: 35px;
 }
 
+
+
+.main__section h3 {
+    font-size: 30px;
+}
+
+
+
+
+
+
 /* esto es para las tarjetas de productos */
 .main__section__container {
     display: grid;
@@ -53,13 +64,15 @@
     height: 60px;
 }
 
+    /* /Para el jumbotron principal */
+
 .main__jumbotron {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #AA0A17;
     color: aliceblue;
-    font-size: 64px;
+    font-size: 60px;
     font-weight: bold;
     line-height: 150%;
 }
@@ -72,6 +85,8 @@ section h3 {
 .main__jumbotron span {
     color: #eea4aa;
 }
+
+   /* /las tarjetas informativas */        
 
 .main__section__informativa {
     display: grid;
@@ -102,16 +117,77 @@ button {
     background-color: #AA0A17;
     font-weight: 700px;
     color: aliceblue;
+    
 }
 
+/* el jumbotron segundo de abajo */
+
 .main__jumbotron__segundo {
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
-background-image: url(/assets/Frame\ 2.jpg);
-background-size: 100%;
-background-position: 180vw 5px;
-padding: 100px 100px;
-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url(/assets/Frame\ 2.jpg);
+    background-size: 100%;
+    background-position: 197.3vw 1px;
+    padding: 100px 100px;
+    color: aliceblue;
+}
+
+.main__jumbotron__segundo h4 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* estas son las tarjetas en si*/
+
+.main__jumbotron__segundo__card {
+    flex-direction: column;
+    align-items: center;
+    background: #F2F2F2;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    display: flex;
+    margin-top: -5rem;
+    min-height: 324px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main__jumbotron__segundo__card h4 {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.main__jumbotron__segundo__card p {
+    color: black;
+    font-size: 14px;
+    margin: 1rem 0;
+}
+
+.main__jumbotron__segundo__card button {
+    letter-spacing: 1px;
+    color: #AA0A17;
+    background: none;
+}
+
+    /* esto es la sección de las tarjetas del segundo jumbotron*/
+
+.main__jumbotron__card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 7px;
+    padding: 15px 60px;
+}
+
+.bg-pink-tarjeta {
+    background-color: #E56C89;
+}
+
+.bg-pink-tarjeta button {
+    color: aliceblue;
 }
