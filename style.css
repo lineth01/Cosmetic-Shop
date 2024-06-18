@@ -32,16 +32,11 @@
     gap: 35px;
 }
 
-
+/* el titulo de la sección de productos */
 
 .main__section h3 {
     font-size: 30px;
 }
-
-
-
-
-
 
 /* esto es para las tarjetas de productos */
 .main__section__container {
@@ -106,6 +101,7 @@ section h3 {
 
 .bg-pink-main {
     background-color: #E56C89;
+    color: aliceblue;
 }
 
 .bg-pink-secod {
@@ -184,10 +180,49 @@ button {
     padding: 15px 60px;
 }
 
+/* para la tarjeta rosada*/
 .bg-pink-tarjeta {
     background-color: #E56C89;
 }
 
 .bg-pink-tarjeta button {
     color: aliceblue;
+}
+
+.bg-pink-tarjeta h4 {
+    color: aliceblue;
+}
+
+.bg-pink-tarjeta p {
+    color: aliceblue;
+}
+
+/* parte de suscribir */
+
+.footer {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: #AA0A17;
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 60%;
+    text-align: center;
+    padding: 3%;
+}
+
+.footer button {
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+}
+
+.footer__titulo {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.footer__titulo__email {
+   
 }
